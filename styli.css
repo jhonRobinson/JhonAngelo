@@ -1,0 +1,67 @@
+.login-contenedor {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 15px;
+    background: transparent;
+}
+.login-contenedor input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+.login-contenedor label {
+    width: 100%;
+    color: red;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+.login-contenedor button {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0 0;
+    box-sizing: border-box;
+    background-color: #007bff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-contenedor button:hover {
+    background-color: #0056b3;
+}
+.login-contenedor h2 {
+    color: red; /* Color del texto por defecto */
+    font-size: 24px; /* Tamaño de fuente */
+    font-weight: bold; /* Peso de la fuente */
+    margin-top: 20px; /* Margen superior */
+    text-align: center; /* Alineación del texto */
+    background-color: #f1f1f1; /* Color de fondo */
+    padding: 10px; /* Relleno interior */
+    border: 2px solid #ccc; /* Borde */
+    border-radius: 5px; /* Radio de borde */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-transform: uppercase; /* Transformación de texto a mayúsculas */
+    transition: all 0.3s ease; /* Transición suave */
+    /* Agrega más propiedades de estilo según tus necesidades */
+
+    /* Cambio de color al pasar el mouse */
+    transition: color 0.3s; /* Transición de color */
+}
+
+.login-contenedor h2:hover {
+    color: blue; /* Nuevo color al pasar el mouse */
+}
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(100%) contrast(120%);
+}
